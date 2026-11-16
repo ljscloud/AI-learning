@@ -1,0 +1,17 @@
+{
+  "arguments": {
+    "epochs": 5,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "device": "cpu",
+    "num_workers": 0,
+    "data_dir": "data",
+    "output_dir": "outputs"
+  },
+  "device": "cpu",
+  "torch_version": "2.6.0",
+  "best_val_accuracy": 0.9896,
+  "train_samples": 55000,
+  "validation_samples": 5000
+}
